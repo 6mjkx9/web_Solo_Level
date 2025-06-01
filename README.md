@@ -22,7 +22,7 @@
 - Icons: [**Lucide**](https://lucide.dev/)
 - Deployment: [**Vercel**](https://vercel.com/)
 - Fully responsive: **Yes**
-- Anime: [**Solo Leveling**](https://anilist.co/anime/153152/Solo-Leveling/)
+- Anime: [**Solo Leveling**](https://en.wikipedia.org/wiki/Solo_Leveling)
 
 </br>
 
