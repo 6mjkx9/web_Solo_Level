@@ -53,7 +53,7 @@
 
 ```bash
 git clone https://github.com/6mjkx9/web_Solo_Level.git
-cd solo-leveling-site
+cd solo-leveling
 
 # Install dependencies
 npm install
