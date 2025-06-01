@@ -1,119 +1,78 @@
-⚔️ Solo Leveling — Anime Web Experience ⚔️
-Односторінковий анімований сайт, натхненний аніме Solo Leveling. Плавний скролінг, інтерактивні персонажі, паралаксні ефекти та темна неонова атмосфера. Працює на Next.js + Tailwind CSS + GSAP + shadcn/ui.
+<h1 align="center"> ⚔️ Solo Leveling — Anime Web Experience ⚔️ </h1>
 
-📘 About
-“Стань найсильнішим мисливцем!”
+<!-- BADGES -->
+</br>
+<p align="center">
+  <img src="https://img.shields.io/github/issues/your-user/solo-leveling-site?style=for-the-badge">
+  </br>
+  <img src="https://img.shields.io/github/languages/count/your-user/solo-leveling-site?style=for-the-badge">
+  <img src="https://img.shields.io/github/repo-size/your-user/solo-leveling-site?style=for-the-badge">
+</p>
 
-Цей сайт — фан-проєкт, присвячений аніме Solo Leveling. Він реалізований як SPA (single-page application) з використанням сучасних інструментів фронтенду.
+<!-- INFORMATION -->
+<h1 align="left"> :blue_book: About</h1>
 
-Технології:
+<img src="public/screens/hero.png" alt="hero" align="right" width="500px">
+</br>
 
-💻 Фреймворк: Next.js (App Router)
+- Framework: [**Next.js (App Router)**](https://nextjs.org/)
+- Styling: [**Tailwind CSS**](https://tailwindcss.com/)
+- Animation: [**GSAP**](https://greensock.com/gsap/)
+- UI Components: [**shadcn/ui**](https://ui.shadcn.dev/)
+- Icons: [**Lucide**](https://lucide.dev/)
+- Deployment: [**Vercel**](https://vercel.com/)
+- Fully responsive: **Yes**
+- Anime: [**Solo Leveling**](https://anilist.co/anime/153152/Solo-Leveling/)
 
-🎨 Стилізація: Tailwind CSS + темна тема з неоном
+</br>
 
-🎬 Анімації: GSAP, ScrollTrigger, anime.js
+<!-- IMAGES -->
+## 🖼️ Gallery
+![gallery](public/screens/1.png)
+![gallery](public/screens/2.png)
+![gallery](public/screens/3.png)
+![gallery](public/screens/4.png)
+![gallery](public/screens/5.png)
+![gallery](public/screens/6.png)
 
-🧩 Компоненти: shadcn/ui
+<!-- FEATURES -->
+## 🚀 Features
+- Parallax scroll with GSAP ScrollTrigger
+- Animated section transitions
+- Characters carousel with smooth animations
+- Responsive dark-themed UI with glowing effects
+- Image gallery with modal view and zoom-in
+- Interactive "contact" section
+- One-page design — no page reloads
+- Optimized for modern browsers
 
-📦 Іконки: Lucide
+<table align="center">
+   <tr>
+      <th align="center">
+         <sup>:warning: WARNING :warning:</sup>
+      </th>
+   </tr>
+   <tr>
+      <td align="center">
+        THIS DESIGN IS OPTIMIZED FOR FULL HD (1920X1080) MONITORS.
+        ON OTHER RESOLUTIONS THE LAYOUT MIGHT REQUIRE MANUAL FIXES.
+        IF YOU SEE ANY BUGS — PLEASE REPORT VIA GITHUB ISSUES.
+      </td>
+   </tr>
+</table>
 
-🔍 Плавний скрол, паралакс, ефекти при скролі
+<!-- INSTALLATION -->
+## :blue_book: Installation
 
-🌐 Повністю адаптивний дизайн
-
-🗺️ Sections
-Header: логотип Solo Leveling + навігація
-
-Головна: текст + фон з ефектами тіней
-
-Персонажі: слайдер з героями, ефекти появи
-
-Сюжет: паралакс, фрази з історії
-
-Галерея: мозаїка зображень, zoom + modal
-
-Контакти: форма + соцмережі
-
-🖼️ Gallery
-Приклад (заміни на свої скріншоти у майбутньому):
-
-
-🚀 Features
-Плавний скролінг між секціями
-
-Ефекти появи персонажів при скролі
-
-Інтерактивна галерея
-
-Адаптивний дизайн
-
-Анімації з використанням GSAP
-
-Анімована форма контактів
-
-Підтримка темної неонової палітри
-
-Повна підтримка мобільних пристроїв
-
-⚙️ Setup
-bash
-Копіювати
-Редагувати
-# Клонуй репозиторій
+```bash
 git clone https://github.com/your-user/solo-leveling-site.git
 cd solo-leveling-site
 
-# Встанови залежності
+# Install dependencies
 npm install
 
-# Ініціалізуй shadcn/ui
+# Initialize shadcn/ui
 npx shadcn@latest init
 
-# Додай базові UI-компоненти
-npx shadcn@latest add button card input textarea
-
-# Запусти сайт
+# Run locally
 npm run dev
-Готово! Сайт буде доступний на: http://localhost:3000
-
-🌐 Deployment
-Найпростіше — використати Vercel:
-
-Залий проект на GitHub
-
-Зайди у Vercel, натисни "Import Project"
-
-Обери репозиторій
-
-Натисни Deploy
-
-⚠️ Важливо
-Всі зображення — плейсхолдери, заміни на свої з Solo Leveling
-
-Для форми контактів треба підключити бекенд або використати форму з Netlify / Formspree
-
-Проєкт створено під екрани 1920x1080, для інших моніторів можлива адаптація
-
-Якщо щось не працює — перевір, чи встановлені всі залежності
-
-💡 Hotkeys (якщо плануєш додати клавіатурні дії)
-Scroll to Characters: Alt + 1
-
-Scroll to Story: Alt + 2
-
-Scroll to Gallery: Alt + 3
-
-(Працює через кастомний keydown listener у JS)
-
-📣 Допомога
-Якщо виникли помилки або хочеш додати щось круте — відкрий issue або fork-тай проект!
-
-📺 Контакти
-YouTube: @yourchannel
-
-Telegram: @yourchannel
-
-Instagram: @yourprofile
-
-Хочеш, щоб я згенерував одразу готовий README.md файл у Markdown або оформив структуру project/ папок під цей сайт — просто скажи ✍️
