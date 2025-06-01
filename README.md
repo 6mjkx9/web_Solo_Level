@@ -18,7 +18,7 @@
 - Framework: [**Next.js (App Router)**](https://nextjs.org/)
 - Styling: [**Tailwind CSS**](https://tailwindcss.com/)
 - Animation: [**GSAP**](https://greensock.com/gsap/)
-- UI Components: [**shadcn/ui**](https://ui.shadcn.dev/)
+- UI Components: [**shadcn/ui**]
 - Icons: [**Lucide**](https://lucide.dev/)
 - Deployment: [**Vercel**](https://vercel.com/)
 - Fully responsive: **Yes**
