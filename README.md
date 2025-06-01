@@ -12,7 +12,7 @@
 <!-- INFORMATION -->
 <h1 align="left"> :blue_book: About</h1>
 
-<img src="public/images/sung-jin-woo.jpg" alt="hero" align="right" width="500px" height="200">
+<img src="public/images/Art.jpg" alt="hero" align="right" width="500px" height="200">
 </br>
 
 - Framework: [**Next.js (App Router)**](https://nextjs.org/)
