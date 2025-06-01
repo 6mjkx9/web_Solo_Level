@@ -1,32 +1,119 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+⚔️ Solo Leveling — Anime Web Experience ⚔️
+Односторінковий анімований сайт, натхненний аніме Solo Leveling. Плавний скролінг, інтерактивні персонажі, паралаксні ефекти та темна неонова атмосфера. Працює на Next.js + Tailwind CSS + GSAP + shadcn/ui.
 
-## Getting Started
+📘 About
+“Стань найсильнішим мисливцем!”
 
-First, run the development server:
+Цей сайт — фан-проєкт, присвячений аніме Solo Leveling. Він реалізований як SPA (single-page application) з використанням сучасних інструментів фронтенду.
 
-```bash
+Технології:
+
+💻 Фреймворк: Next.js (App Router)
+
+🎨 Стилізація: Tailwind CSS + темна тема з неоном
+
+🎬 Анімації: GSAP, ScrollTrigger, anime.js
+
+🧩 Компоненти: shadcn/ui
+
+📦 Іконки: Lucide
+
+🔍 Плавний скрол, паралакс, ефекти при скролі
+
+🌐 Повністю адаптивний дизайн
+
+🗺️ Sections
+Header: логотип Solo Leveling + навігація
+
+Головна: текст + фон з ефектами тіней
+
+Персонажі: слайдер з героями, ефекти появи
+
+Сюжет: паралакс, фрази з історії
+
+Галерея: мозаїка зображень, zoom + modal
+
+Контакти: форма + соцмережі
+
+🖼️ Gallery
+Приклад (заміни на свої скріншоти у майбутньому):
+
+
+🚀 Features
+Плавний скролінг між секціями
+
+Ефекти появи персонажів при скролі
+
+Інтерактивна галерея
+
+Адаптивний дизайн
+
+Анімації з використанням GSAP
+
+Анімована форма контактів
+
+Підтримка темної неонової палітри
+
+Повна підтримка мобільних пристроїв
+
+⚙️ Setup
+bash
+Копіювати
+Редагувати
+# Клонуй репозиторій
+git clone https://github.com/your-user/solo-leveling-site.git
+cd solo-leveling-site
+
+# Встанови залежності
+npm install
+
+# Ініціалізуй shadcn/ui
+npx shadcn@latest init
+
+# Додай базові UI-компоненти
+npx shadcn@latest add button card input textarea
+
+# Запусти сайт
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Готово! Сайт буде доступний на: http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🌐 Deployment
+Найпростіше — використати Vercel:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Залий проект на GitHub
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Зайди у Vercel, натисни "Import Project"
 
-## Learn More
+Обери репозиторій
 
-To learn more about Next.js, take a look at the following resources:
+Натисни Deploy
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+⚠️ Важливо
+Всі зображення — плейсхолдери, заміни на свої з Solo Leveling
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Для форми контактів треба підключити бекенд або використати форму з Netlify / Formspree
 
+Проєкт створено під екрани 1920x1080, для інших моніторів можлива адаптація
 
+Якщо щось не працює — перевір, чи встановлені всі залежності
+
+💡 Hotkeys (якщо плануєш додати клавіатурні дії)
+Scroll to Characters: Alt + 1
+
+Scroll to Story: Alt + 2
+
+Scroll to Gallery: Alt + 3
+
+(Працює через кастомний keydown listener у JS)
+
+📣 Допомога
+Якщо виникли помилки або хочеш додати щось круте — відкрий issue або fork-тай проект!
+
+📺 Контакти
+YouTube: @yourchannel
+
+Telegram: @yourchannel
+
+Instagram: @yourprofile
+
+Хочеш, щоб я згенерував одразу готовий README.md файл у Markdown або оформив структуру project/ папок під цей сайт — просто скажи ✍️
