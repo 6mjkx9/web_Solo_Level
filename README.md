@@ -52,7 +52,7 @@
 ## :blue_book: Installation
 
 ```bash
-git clone https://github.com/your-user/solo-leveling-site.git
+git clone [https://github.com/your-user/solo-leveling-site.git](https://github.com/6mjkx9/web_Solo_Level.git)
 cd solo-leveling-site
 
 # Install dependencies
