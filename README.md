@@ -46,20 +46,7 @@
 - One-page design — no page reloads
 - Optimized for modern browsers
 
-<table align="center">
-   <tr>
-      <th align="center">
-         <sup>:warning: WARNING :warning:</sup>
-      </th>
-   </tr>
-   <tr>
-      <td align="center">
-        THIS DESIGN IS OPTIMIZED FOR FULL HD (1920X1080) MONITORS.
-        ON OTHER RESOLUTIONS THE LAYOUT MIGHT REQUIRE MANUAL FIXES.
-        IF YOU SEE ANY BUGS — PLEASE REPORT VIA GITHUB ISSUES.
-      </td>
-   </tr>
-</table>
+
 
 <!-- INSTALLATION -->
 ## :blue_book: Installation
