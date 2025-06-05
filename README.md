@@ -12,7 +12,7 @@
 <!-- INFORMATION -->
 <h1 align="left"> :blue_book: About</h1>
 
-<img src="public/images/Art.jpg" alt="hero" align="right" width="300px" height="500">
+<img src="public/images/Art.jpg" alt="hero" align="right" width="200px" height="300">
 </br>
 
 - Framework: [**Next.js (App Router)**](https://nextjs.org/)
