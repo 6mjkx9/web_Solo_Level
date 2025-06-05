@@ -1,13 +1,7 @@
 <h1 align="center"> ⚔️ Solo Leveling — Anime Web Experience ⚔️ </h1>
 
 <!-- BADGES -->
-</br>
-<p align="center">
-  <img src="https://img.shields.io/github/issues/your-user/solo-leveling-site?style=for-the-badge">
-  </br>
-  <img src="https://img.shields.io/github/languages/count/your-user/solo-leveling-site?style=for-the-badge">
-  <img src="https://img.shields.io/github/repo-size/your-user/solo-leveling-site?style=for-the-badge">
-</p>
+
 
 <!-- INFORMATION -->
 <h1 align="left"> :blue_book: About</h1>
