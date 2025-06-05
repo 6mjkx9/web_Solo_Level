@@ -28,12 +28,12 @@
 
 <!-- IMAGES -->
 ## 🖼️ Gallery
-![gallery](public/screens/1.png)
-![gallery](public/screens/2.png)
-![gallery](public/screens/3.png)
-![gallery](public/screens/4.png)
-![gallery](public/screens/5.png)
-![gallery](public/screens/6.png)
+![gallery](public/images/osn.png)
+![gallery](public/images/Osn1.png)
+![gallery](public/images/Osn2.png)
+![gallery](public/images/Osn3.png)
+![gallery](public/images/Osn4.png)
+![gallery](public/images/Osn5.png)
 
 <!-- FEATURES -->
 ## 🚀 Features
