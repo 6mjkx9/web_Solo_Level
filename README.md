@@ -28,7 +28,7 @@
 
 <!-- IMAGES -->
 ## 🖼️ Gallery
-![gallery](public/images/osn.png ) width="300px" height="500"
+![gallery](public/images/osn.png ) 
 ![gallery](public/images/Osn1.png)
 ![gallery](public/images/Osn2.png)
 ![gallery](public/images/Osn3.png)
