@@ -21,12 +21,13 @@
 </br>
 
 <!-- IMAGES -->
-## 🖼️ Gallery
-![gallery](public/images/osn.png ) 
-![gallery](public/images/Osn1.png)
-![gallery](public/images/Osn2.png)
-![gallery](public/images/Osn3.png)
-![gallery](public/images/Osn4.png)
+## 🖼️ Gallery 
+<img src="public/images/osn.png" width="300" height="200" alt="gallery" />
+<img src="public/images/Osn1.png" width="300" height="200" alt="gallery" />
+<img src="public/images/Osn2.png" width="300" height="200" alt="gallery" />
+<img src="public/images/Osn3.png" width="300" height="200" alt="gallery" />
+<img src="public/images/Osn4.png" width="300" height="200" alt="gallery" />
+
 
 
 <!-- FEATURES -->
