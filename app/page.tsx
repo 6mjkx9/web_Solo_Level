@@ -17,7 +17,7 @@ export default function Home() {
     // Register ScrollTrigger plugin
     gsap.registerPlugin(ScrollTrigger)
 
-    // Enable smooth scrolling
+    // Enable smooth scrolling animations
     const sections = document.querySelectorAll("section")
     sections.forEach((section) => {
       ScrollTrigger.create({

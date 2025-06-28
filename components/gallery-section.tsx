@@ -3,47 +3,47 @@
 import { useEffect, useRef, useState } from "react"
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
-import { X } from 'lucide-react'
+import { X } from "lucide-react"
 
 const galleryImages = [
   {
     id: 1,
-    src: "/images/Shadows.jpg",
+    src: "/images/gallery1.jpg",
     alt: "Сон Джін-У використовує свої сили",
-    width: 720,
-    height: 1280,
+    width: 600,
+    height: 400,
   },
   {
     id: 2,
-    src: "/images/Army of shadows.jpg",
+    src: "/images/gallery2.jpg",
     alt: "Армія тіней Джін-У",
     width: 400,
     height: 600,
   },
   {
     id: 3,
-    src: "/images/Battle with the monarch.jpg",
+    src: "/images/gallery3.jpg",
     alt: "Битва з монархом",
     width: 600,
     height: 400,
   },
   {
     id: 4,
-    src: "/images/Guild 'Shadow of Monarch'.jpg",
+    src: "/images/gallery4.jpg",
     alt: "Гільдія 'Тіні Монарха'",
     width: 500,
     height: 500,
   },
   {
     id: 5,
-    src: "/images/Army of shadows2.jpg",
+    src: "/images/gallery5.jpg",
     alt: "Джін-У та його тіні",
     width: 600,
     height: 400,
   },
   {
     id: 6,
-    src: "/images/Chhah ha-in in battle.jpg",
+    src: "/images/gallery6.jpg",
     alt: "Чха Хе-Ін в бою",
     width: 400,
     height: 600,
@@ -105,7 +105,7 @@ export default function GallerySection() {
             >
               <div className="aspect-square sm:aspect-auto overflow-hidden">
                 <img
-                  src={image.src || "/placeholder.svg"}
+                  src={image.src || "/placeholder.svg?height=400&width=600"}
                   alt={image.alt}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
@@ -123,12 +123,12 @@ export default function GallerySection() {
             <div className="relative max-w-4xl max-h-[90vh] overflow-hidden" onClick={(e) => e.stopPropagation()}>
               <button
                 onClick={closeModal}
-                className="absolute top-2 right-2 bg-black/50 text-white p-2 rounded-full hover:bg-black/70 transition-colors"
+                className="absolute top-2 right-2 bg-black/50 text-white p-2 rounded-full hover:bg-black/70 transition-colors z-10"
               >
                 <X className="h-5 w-5" />
               </button>
               <img
-                src={selectedImage.src || "/placeholder.svg"}
+                src={selectedImage.src || "/placeholder.svg?height=400&width=600"}
                 alt={selectedImage.alt}
                 className="max-h-[80vh] max-w-full object-contain"
               />

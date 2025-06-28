@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react"
 import { gsap } from "gsap"
-import { Menu } from 'lucide-react'
+import { Menu } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 
@@ -18,7 +18,7 @@ export default function Header() {
   const logoRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    // Animate logo on load
+    // Анімація логотипу при завантаженні
     gsap.from(logoRef.current, {
       opacity: 0,
       y: -50,
@@ -46,7 +46,7 @@ export default function Header() {
           </h1>
         </div>
 
-        {/* Desktop Navigation */}
+        {/* Навігація для десктопу */}
         <nav className="hidden md:flex items-center space-x-6">
           {navItems.map((item) => (
             <button
@@ -60,7 +60,7 @@ export default function Header() {
           ))}
         </nav>
 
-        {/* Mobile Navigation */}
+        {/* Мобільна навігація */}
         <Sheet>
           <SheetTrigger asChild className="md:hidden">
             <Button variant="ghost" size="icon">

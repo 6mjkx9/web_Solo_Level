@@ -23,7 +23,7 @@ export default function StorySection() {
     const ctx = gsap.context(() => {
       // Parallax effect for background shadows
       gsap.to(".shadow-parallax", {
-        y: (i, el) => -ScrollTrigger.maxScroll(window) * (el.dataset.speed || 0.1),
+        y: (i, el) => -ScrollTrigger.maxScroll(window) * Number.parseFloat(el.dataset.speed || "0.1"),
         ease: "none",
         scrollTrigger: {
           trigger: sectionRef.current,
@@ -51,11 +51,11 @@ export default function StorySection() {
       // Animate story highlights
       const highlights = gsap.utils.toArray(".story-highlight")
       highlights.forEach((highlight, i) => {
-        gsap.from(highlight, {
+        gsap.from(highlight as Element, {
           opacity: 0,
           x: i % 2 === 0 ? -50 : 50,
           scrollTrigger: {
-            trigger: highlight,
+            trigger: highlight as Element,
             start: "top 85%",
             end: "bottom 70%",
             toggleActions: "play none none reverse",
@@ -76,7 +76,7 @@ export default function StorySection() {
         <div
           key={i}
           className="shadow-parallax absolute w-64 h-64 rounded-full bg-purple-900/10 blur-3xl"
-          data-speed={0.1 + i * 0.05}
+          data-speed={(0.1 + i * 0.05).toString()}
           style={{
             left: `${(i * 20) % 100}%`,
             top: `${(i * 15) % 100}%`,

@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react"
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
-import { ChevronLeft, ChevronRight } from 'lucide-react'
+import { ChevronLeft, ChevronRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 
@@ -31,7 +31,7 @@ const characters = [
     name: "Ю Джін-Хо",
     role: "Помічник",
     description: "Вірний помічник Джін-У, який допомагає йому керувати гільдією.",
-    image: "/images/YuGin-Ho.jpg",
+    image: "/images/jin-ho.jpg",
     fullDescription:
       "Ю Джін-Хо - вірний помічник Джін-У, який допомагає йому керувати гільдією. Він походить із заможної родини, але вирішує працювати з Джін-У після того, як бачить його потенціал. Джін-Хо відповідає за адміністративні завдання, фінанси та логістику, дозволяючи Джін-У зосередитися на полюванні та підвищенні рівня.",
   },
@@ -40,7 +40,7 @@ const characters = [
     name: "Го Гун-Хі",
     role: "Голова Асоціації",
     description: "Голова Асоціації Мисливців Кореї, який спостерігає за розвитком Джін-У.",
-    image: "/images/HUN-XI.jpg",
+    image: "/images/go-gun-hee.jpg",
     fullDescription:
       "Го Гун-Хі - голова Асоціації Мисливців Кореї. Він є одним із найвпливовіших людей у світі мисливців і має величезний досвід. Він швидко помічає незвичайний розвиток Джін-У і починає спостерігати за ним. Незважаючи на свій вік, він все ще є потужним мисливцем і має глибоке розуміння світу підземель.",
   },
@@ -56,6 +56,7 @@ export default function CharactersSection() {
     gsap.registerPlugin(ScrollTrigger)
 
     const ctx = gsap.context(() => {
+      // Create scroll trigger for character cards
       ScrollTrigger.create({
         trigger: sectionRef.current,
         start: "top 70%",
@@ -104,7 +105,7 @@ export default function CharactersSection() {
             <div className="character-card opacity-0 translate-y-10 bg-card rounded-lg overflow-hidden shadow-lg border border-border">
               <div className="aspect-[3/4] relative">
                 <img
-                  src={characters[currentIndex].image || "/placeholder.svg"}
+                  src={characters[currentIndex].image || "/placeholder.svg?height=400&width=300"}
                   alt={characters[currentIndex].name}
                   className="w-full h-full object-cover"
                 />
@@ -148,7 +149,7 @@ export default function CharactersSection() {
               >
                 <div className="aspect-[3/4] relative">
                   <img
-                    src={character.image || "/placeholder.svg"}
+                    src={character.image || "/placeholder.svg?height=400&width=300"}
                     alt={character.name}
                     className="w-full h-full object-cover"
                   />
@@ -183,7 +184,7 @@ export default function CharactersSection() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="aspect-[3/4] relative">
                     <img
-                      src={selectedCharacter.image || "/placeholder.svg"}
+                      src={selectedCharacter.image || "/placeholder.svg?height=400&width=300"}
                       alt={selectedCharacter.name}
                       className="w-full h-full object-cover rounded-md"
                     />

@@ -1,10 +1,12 @@
+"use client"
+
 import { useState } from "react"
 
 type ToastProps = {
-  id?: number;
-  title: string;
-  description?: string;
-  duration?: number;
+  id?: number
+  title: string
+  description?: string
+  duration?: number
 }
 
 export function useToast() {

@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react"
 import { gsap } from "gsap"
 import { Button } from "@/components/ui/button"
-import { ChevronDown } from 'lucide-react'
+import { ChevronDown } from "lucide-react"
 
 export default function HeroSection() {
   const sectionRef = useRef<HTMLElement>(null)
@@ -12,7 +12,7 @@ export default function HeroSection() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      // Create shadow animation
+      // Створюємо анімацію тіньових елементів
       gsap.to(".shadow-element", {
         x: "random(-20, 20)",
         y: "random(-20, 20)",
@@ -24,7 +24,7 @@ export default function HeroSection() {
         stagger: 0.1,
       })
 
-      // Animate title and button
+      // Анімація заголовку та кнопки
       gsap.from(titleRef.current, {
         opacity: 0,
         y: 50,
@@ -39,7 +39,7 @@ export default function HeroSection() {
         delay: 1,
       })
 
-      // Button pulse animation
+      // Анімація пульсації кнопки
       gsap.to(buttonRef.current, {
         boxShadow: "0 0 15px rgba(124, 58, 237, 0.8)",
         repeat: -1,
@@ -64,7 +64,7 @@ export default function HeroSection() {
       ref={sectionRef}
       className="min-h-screen flex items-center justify-center relative overflow-hidden pt-16"
     >
-      {/* Shadow elements for background animation */}
+      {/* Тіньові елементи для фонової анімації */}
       {[...Array(10)].map((_, i) => (
         <div
           key={i}
