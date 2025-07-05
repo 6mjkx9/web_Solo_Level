@@ -14,7 +14,6 @@
 - Animation: [**GSAP**](https://greensock.com/gsap/)
 - UI Components: [**shadcn/ui**]
 - Icons: [**Lucide**](https://lucide.dev/)
-- Deployment: [**Vercel**](https://vercel.com/)
 - Fully responsive: **Yes**
 - Anime: [**Solo Leveling**](https://en.wikipedia.org/wiki/Solo_Leveling)
 
