@@ -15,7 +15,7 @@ const galleryImages = [
   },
   {
     id: 2,
-    src: "/images/gallery2.jpg",
+    src: "/images/Army of shadows.jpg",
     alt: "Армія тіней Джін-У",
     width: 400,
     height: 600,
@@ -29,21 +29,21 @@ const galleryImages = [
   },
   {
     id: 4,
-    src: "/images/gallery4.jpg",
+    src: "/images/Guild 'Shadow of Monarch'.jpg",
     alt: "Гільдія 'Тіні Монарха'",
     width: 500,
     height: 500,
   },
   {
     id: 5,
-    src: "/images/gallery5.jpg",
+    src: "/images/Army of shadows3.jpg",
     alt: "Джін-У та його тіні",
     width: 600,
     height: 400,
   },
   {
     id: 6,
-    src: "/images/gallery6.jpg",
+    src: "/images/Chhah ha-in in battle.jpg",
     alt: "Чха Хе-Ін в бою",
     width: 400,
     height: 600,
