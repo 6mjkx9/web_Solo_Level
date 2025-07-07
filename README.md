@@ -1,5 +1,10 @@
 <h1 align="center"> ⚔️ Solo Leveling — Anime Web Experience ⚔️ </h1>
 
+![Solo Leveling Website](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38B2AC?style=for-the-badge&logo=tailwind-css)
+![SQLite](https://img.shields.io/badge/SQLite-3-003B57?style=for-the-badge&logo=sqlite)
+
 
 <h1 align="left"> :blue_book: About</h1>
 
@@ -15,8 +20,6 @@ A modern website dedicated to the popular anime "Solo Leveling", built with Next
 - Icons: [**Lucide**](https://lucide.dev/)
 - Fully responsive: **Yes**
 - Anime: [**Solo Leveling**](https://en.wikipedia.org/wiki/Solo_Leveling)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38B2AC?style=for-the-badge&logo=tailwind-css)
-![SQLite](https://img.shields.io/badge/SQLite-3-003B57?style=for-the-badge&logo=sqlite)
 
 ## 🌟 Features
 
@@ -346,12 +349,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Give a ⭐️ if this project helped you!
 
-## 📈 Project Status
-
-![GitHub last commit](https://img.shields.io/github/last-commit/your-username/solo-leveling-website)
-![GitHub issues](https://img.shields.io/github/issues/your-username/solo-leveling-website)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/your-username/solo-leveling-website)
-![GitHub stars](https://img.shields.io/github/stars/your-username/solo-leveling-website)
 
 ---
 
