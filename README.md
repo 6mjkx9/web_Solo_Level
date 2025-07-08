@@ -12,7 +12,6 @@
 </br>
 
 
-A modern website dedicated to the popular anime "Solo Leveling", built with Next.js 15, TypeScript, and Tailwind CSS.
 - Framework: [**Next.js (App Router)**](https://nextjs.org/)
 - Styling: [**Tailwind CSS**](https://tailwindcss.com/)
 - Animation: [**GSAP**](https://greensock.com/gsap/)
@@ -331,9 +330,6 @@ If you find a bug, please:
 3. Include steps to reproduce the bug
 4. Add screenshots if possible
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👥 Authors
 
